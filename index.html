@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stephanie Josh P. Cruz | IT Support & Systems Security</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-slate-900 selection:text-white dark:bg-slate-950 dark:text-slate-100">
+
+  <!-- TOP HEADER / NAV -->
+  <header class="sticky top-0 z-40 bg-white/80 dark:bg-slate-950/80 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+      <a href="#" class="font-semibold text-sm tracking-tight text-slate-900 dark:text-white">
+      </a>
+      <nav class="flex items-center gap-5 text-xs font-medium text-slate-600 dark:text-slate-400">
+        <a href="#about" class="hover:text-slate-900 dark:hover:text-white transition-colors">About</a>
+        <a href="#skills" class="hover:text-slate-900 dark:hover:text-white transition-colors">Skills</a>
+        <a href="#experience" class="hover:text-slate-900 dark:hover:text-white transition-colors">Experience</a>
+        <a href="#projects" class="hover:text-slate-900 dark:hover:text-white transition-colors">Projects</a>
+        <a href="#credentials" class="hover:text-slate-900 dark:hover:text-white transition-colors">Certifications</a>
+        <a href="#contact" class="hover:text-slate-900 dark:hover:text-white transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16 space-y-16">
+
+    <!-- HERO SECTION -->
+    <section class="space-y-4 pt-4">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200 dark:bg-emerald-950/40 dark:text-emerald-300 dark:border-emerald-800">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
+        Available for IT Support, SysAdmin &amp; Security Roles
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 dark:text-white">
+        Stephanie Josh P. Cruz
+      </h1>
+
+      <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
+        IT Support &amp; Systems Security Professional with hands-on production experience in multi-vendor enterprise networking, Windows Server environments, Active Directory, and perimeter firewall security.
+      </p>
+
+      <!-- Quick Contact Info Row -->
+      <div class="flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-slate-500 dark:text-slate-400 pt-1">
+        <span class="flex items-center gap-1.5">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-400"></i>
+          Manila, Philippines
+        </span>
+        <a href="mailto:joshcruz030703@gmail.com" class="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-slate-400"></i>
+          joshcruz030703@gmail.com
+        </a>
+        <span class="flex items-center gap-1.5">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-slate-400"></i>
+          0961 968 9204
+        </span>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center gap-3 pt-3">
+        <a href="mailto:joshcruz030703@gmail.com" class="px-4 py-2 rounded-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 text-xs font-semibold hover:opacity-90 transition-opacity flex items-center gap-2">
+          <i data-lucide="mail" class="w-3.5 h-3.5"></i> Email Me
+        </a>
+        <button onclick="copyEmail(this)" class="px-3.5 py-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-xs text-slate-700 dark:text-slate-200 font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors flex items-center gap-2">
+          <i data-lucide="copy" class="w-3.5 h-3.5 text-slate-500"></i> Copy Contact
+        </button>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="space-y-3 pt-4 border-t border-slate-200 dark:border-slate-800">
+      <h2 class="text-xs uppercase tracking-wider font-semibold text-slate-400 dark:text-slate-500">Summary</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+        Hands-on IT Support and Systems Security Professional with a Bachelor of Science in Information Technology and proven experience administering network infrastructure, Windows Server environments, endpoint protection, and hardware lifecycles. Demonstrated success configuring enterprise firewalls, managed switches, 802.1Q VLANs, Active Directory, and Zero-Client deployments in high-availability production environments. Skilled in reducing attack surfaces through strict access control (MFA, captive portals, MAC whitelisting) and authoring technical governance documentation aligned with the CIA Triad.
+      </p>
+    </section>
+
+    <!-- CORE SKILLS -->
+    <section id="skills" class="space-y-4 pt-4 border-t border-slate-200 dark:border-slate-800">
+      <h2 class="text-xs uppercase tracking-wider font-semibold text-slate-400 dark:text-slate-500">Technical Skills</h2>
+
+      <div class="space-y-3 text-xs sm:text-sm">
+        <!-- Row 1 -->
+        <div class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
+          <span class="w-48 font-medium text-slate-900 dark:text-white flex-shrink-0">Systems &amp; Servers</span>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Windows Server</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Active Directory (AD DS)</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Group Policy (GPO)</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Zero-Client Architecture</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Virtualization &amp; RBAC</span>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
+          <span class="w-48 font-medium text-slate-900 dark:text-white flex-shrink-0">Networking &amp; Hardware</span>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Huawei USG6305E NGFW</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">HP ProCurve 2510-48</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">TP-Link TL-SG1218MPE PoE+</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">802.1Q VLAN</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Inter-VLAN Routing &amp; PVID</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Subnetting &amp; DHCP</span>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
+          <span class="w-48 font-medium text-slate-900 dark:text-white flex-shrink-0">Security &amp; Edge Defense</span>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Captive Portal Auth</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">MAC Whitelisting</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">URL &amp; DNS Filtering</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">Firewall ACLs</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">ESET PROTECT On-Prem</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">MFA &amp; CIA Triad</span>
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
+          <span class="w-48 font-medium text-slate-900 dark:text-white flex-shrink-0">Diagnostics &amp; Operations</span>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs font-medium text-blue-600 dark:text-blue-400">Wireshark</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs font-medium text-blue-600 dark:text-blue-400">PuTTY (SSH/CLI)</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">L1/L2 Troubleshooting</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">CCTV (IP &amp; Coaxial)</span>
+            <span class="px-2.5 py-1 rounded-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 text-xs">POS &amp; PABX Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <section id="experience" class="space-y-6 pt-4 border-t border-slate-200 dark:border-slate-800">
+      <h2 class="text-xs uppercase tracking-wider font-semibold text-slate-400 dark:text-slate-500">Work Experience</h2>
+
+      <div class="space-y-4">
+        <!-- Role header -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+          <div>
+            <h3 class="font-semibold text-base text-slate-900 dark:text-white">IT Technical Support &amp; Security Administrator</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Paradigma International Inc. &bull; Manila, Philippines</p>
+          </div>
+          <span class="text-xs font-medium text-slate-500 dark:text-slate-400">2025 &ndash; Present</span>
+        </div>
+
+        <!-- Experience bullets -->
+        <ul class="space-y-2.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300 list-disc pl-4 leading-relaxed">
+          <li><strong>Identity &amp; Captive Portal:</strong> Configured a built-in captive portal on Huawei USG NGFWs enforcing MAC address whitelisting for 80–100 daily active users, dropping unauthorized network access attempts to zero.</li>
+          <li><strong>Perimeter URL &amp; DNS Filtering:</strong> Enforced domain categories and content filtering on firewalls to block phishing, malicious traffic, and high-bandwidth applications, protecting operational throughput.</li>
+          <li><strong>Multi-Vendor Networking:</strong> Engineered departmental network segmentation across Huawei USG firewalls, HP ProCurve 2510-48 switches, and TP-Link PoE+ switches using 802.1Q VLANs and custom PVID mapping. Utilized PuTTY (SSH) for device administration and Wireshark for packet capture and latency troubleshooting.</li>
+          <li><strong>Systems &amp; Zero-Client Infrastructure:</strong> Administered Windows Server environments, integrated Active Directory directory services, and deployed zero-client workstations to streamline provisioning and eliminate endpoint OS maintenance vulnerabilities.</li>
+          <li><strong>Endpoint Defense &amp; Reliability:</strong> Managed endpoint security baselines via ESET PROTECT On-Prem and delivered L1/L2 hardware support, sustaining 99%+ uptime across POS terminals, PABX systems, and IP/coaxial CCTV networks.</li>
+          <li><strong>Governance &amp; Documentation:</strong> Authored standard operating procedures including the <em>Cybersecurity Password Management &amp; Access Policy Bulletin</em> (enforcing MFA and CIA Triad) and step-by-step Huawei USG firewall manuals.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- KEY PROJECTS -->
+    <section id="projects" class="space-y-6 pt-4 border-t border-slate-200 dark:border-slate-800">
+      <h2 class="text-xs uppercase tracking-wider font-semibold text-slate-400 dark:text-slate-500">Key Projects</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Project 1 -->
+        <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2">
+          <div class="flex items-center justify-between text-xs text-slate-400">
+            <span class="font-medium text-slate-900 dark:text-white">Lead Implementer</span>
+            <span>Network Security</span>
+          </div>
+          <h3 class="font-semibold text-sm text-slate-900 dark:text-white">
+            Enterprise Network Architecture &amp; Captive Portal
+          </h3>
+          <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+            Architected a multi-VLAN topology with inter-VLAN routing across Huawei USG firewalls, HP ProCurve switches, and TP-Link PoE+ switches. Configured dedicated subnets, DHCP pools, port tagging, and firewall ACLs to isolate guest, staff, and POS traffic.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-1 text-[11px] text-slate-500">
+            <span>#802.1Q</span> <span>#VLAN</span> <span>#HuaweiNGFW</span> <span>#CaptivePortal</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2">
+          <div class="flex items-center justify-between text-xs text-slate-400">
+            <span class="font-medium text-slate-900 dark:text-white">Lead Implementer</span>
+            <span>VDI &amp; Systems</span>
+          </div>
+          <h3 class="font-semibold text-sm text-slate-900 dark:text-white">
+            Common-Use Workstation Modernization (Zero-Client &amp; AD)
+          </h3>
+          <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+            Centralized workstation infrastructure by provisioning Zero-Client units tied directly into Active Directory. Standardized user access controls, reduced per-seat onboarding time, and removed local hard drive security risks.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-1 text-[11px] text-slate-500">
+            <span>#ZeroClient</span> <span>#ActiveDirectory</span> <span>#GPO</span> <span>#RBAC</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & EDUCATION -->
+    <section id="credentials" class="space-y-6 pt-4 border-t border-slate-200 dark:border-slate-800">
+      <h2 class="text-xs uppercase tracking-wider font-semibold text-slate-400 dark:text-slate-500">Education &amp; Credentials</h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <!-- Certification -->
+        <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2">
+          <span class="text-xs text-slate-400 font-medium">Issued: Aug 24, 2026</span>
+          <h3 class="font-semibold text-sm text-slate-900 dark:text-white">
+            Introduction to Cybersecurity
+          </h3>
+          <p class="text-xs text-slate-500">Cisco Networking Academy</p>
+          <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed pt-1">
+            Core competencies in threat detection &amp; defense, identifying cyber attack vectors and vulnerabilities, online safety operations, and enterprise security measures.
+          </p>
+          <div class="pt-2">
+            <a 
+              href="https://www.credly.com/badges/29017e9f-19a3-43a3-98cb-c02dc4110ae0/public_url" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="inline-flex items-center gap-1.5 text-xs text-blue-600 dark:text-blue-400 hover:underline font-medium"
+            >
+              Verify on Credly <i data-lucide="external-link" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Degree -->
+        <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2">
+          <span class="text-xs text-slate-400 font-medium">2021 &ndash; 2025</span>
+          <h3 class="font-semibold text-sm text-slate-900 dark:text-white">
+            Bachelor of Science in Information Technology
+          </h3>
+          <p class="text-xs text-slate-500">Universidad De Manila &bull; Manila, Philippines</p>
+          <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed pt-1">
+            Rigorous academic foundation in network administration, enterprise systems, information assurance, information security governance, and databases.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="space-y-4 pt-4 border-t border-slate-200 dark:border-slate-800">
+      <h2 class="text-xs uppercase tracking-wider font-semibold text-slate-400 dark:text-slate-500">Get in Touch</h2>
+
+      <div class="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-4">
+        <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+          I am currently open to full-time opportunities as an <strong>IT Support Specialist</strong>, <strong>Junior System Administrator</strong>, or <strong>Junior SOC / Security Analyst</strong> in Manila or remote/hybrid settings.
+        </p>
+
+        <div class="flex flex-wrap items-center gap-3 pt-1">
+          <a href="mailto:joshcruz030703@gmail.com" class="px-4 py-2 rounded-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 text-xs font-semibold hover:opacity-90 transition-opacity flex items-center gap-2">
+            <i data-lucide="mail" class="w-3.5 h-3.5"></i> Send an Email
+          </a>
+          <button onclick="copyEmail(this)" class="px-3.5 py-2 rounded-lg border border-slate-300 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-200 font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors flex items-center gap-2">
+            <i data-lucide="copy" class="w-3.5 h-3.5 text-slate-500"></i> Copy: joshcruz030703@gmail.com
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MINIMAL FOOTER -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-8 text-center text-xs text-slate-400">
+    <div class="max-w-4xl mx-auto px-4">
+      &copy; Stephanie Josh P. Cruz &bull; IT Support &amp; Systems Security Professional &bull; Manila, Philippines
+    </div>
+  </footer>
+
+  <!-- SIMPLE JAVASCRIPT -->
+  <script>
+    lucide.createIcons();
+
+    function copyEmail(buttonEl) {
+      const email = 'joshcruz030703@gmail.com';
+      const tempInput = document.createElement('input');
+      tempInput.value = email;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      try {
+        document.execCommand('copy');
+        const orig = buttonEl.innerHTML;
+        buttonEl.innerHTML = '<span class="text-emerald-600 dark:text-emerald-400 font-medium">Copied!</span>';
+        setTimeout(() => {
+          buttonEl.innerHTML = orig;
+          lucide.createIcons();
+        }, 2000);
+      } catch (e) {
+        console.error(e);
+      }
+      document.body.removeChild(tempInput);
+    }
+  </script>
+</body>
+</html>
